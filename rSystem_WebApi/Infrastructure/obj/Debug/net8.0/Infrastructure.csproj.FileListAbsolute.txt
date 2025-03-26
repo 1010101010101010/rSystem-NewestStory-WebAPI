@@ -1,0 +1,16 @@
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

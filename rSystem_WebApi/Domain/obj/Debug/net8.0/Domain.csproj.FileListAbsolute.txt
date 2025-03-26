@@ -1,0 +1,12 @@
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Domain\bin\Debug\net8.0\Domain.dll
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Domain\obj\Debug\net8.0\Domain.dll
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Source_Code\rSystem\Newest_Stories\WebAPI\rSystem-NewestStory-WebAPI\rSystem_WebApi\Domain\obj\Debug\net8.0\ref\Domain.dll
