@@ -1,4 +1,5 @@
-using Application;
+using Services;
+using Services.Interfaces;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,7 +7,8 @@ builder.Configuration.AddJsonFile("appsettings.json");
 // Add services to the container.
 builder.Services.AddHttpClient();
 builder.Services.AddMemoryCache();
-ServiceRegister.RegisterServices(builder.Services, builder.Configuration);
+builder.Services.AddScoped<ICachingService, CachingService>();
+builder.Services.AddScoped<IStoryServices, StoryServices>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
@@ -19,6 +21,11 @@ builder.Services.AddCors(options =>
 builder.Services.AddControllers()
     .AddJsonOptions(options => { options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase; })
     .AddXmlSerializerFormatters(); //Enabling XML support
+
+// Configure logging
+builder.Logging.ClearProviders();  // Clear default log providers if needed
+builder.Logging.AddConsole();      // Enable console logging
+builder.Logging.SetMinimumLevel(LogLevel.Information); // Set the log level to Information
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

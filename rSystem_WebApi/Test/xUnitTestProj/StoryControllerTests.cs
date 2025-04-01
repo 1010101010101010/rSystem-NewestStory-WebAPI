@@ -1,69 +1,53 @@
 ﻿using Moq;
-using System;
-using System.Threading.Tasks;
 using Api.Controllers;
-using Application.Interfaces;
-using Application.DTOs;
-using Microsoft.AspNetCore.Http;
+using Services.Interfaces;
+using Services.Model;
 using Microsoft.AspNetCore.Mvc;
-using Xunit;
+
 
 namespace xUnitTestProj
 {
     public class StoryControllerTests
     {
         private readonly Mock<IStoryServices> _mockStoryServices;
-        private readonly StoryController _controller;
+        private readonly StoryController _storyController;
 
         public StoryControllerTests()
         {
             _mockStoryServices = new Mock<IStoryServices>();
-            _controller = new StoryController(_mockStoryServices.Object);
+            _storyController = new StoryController(_mockStoryServices.Object);
         }
 
         [Fact]
-        public async Task GetStories_ReturnsOkResult_WhenStoriesAreFound()
+        public async Task GetStories_ReturnsOkResult_WithStories()
         {
             // Arrange
             var page = 1;
             var pageSize = 10;
-            var storiesResponse = new PageResponse
+            var stories = new PageResponse
             {
                 Page = page,
                 PageSize = pageSize,
                 TotalPages = 5,
-                Stories = new List<StoryDto>
+                Stories = new List<Story>
                 {
-                    new StoryDto { Title = "Story 1", Url = "http://story1.com" },
-                    new StoryDto { Title = "Story 2", Url = "http://story2.com" }
+                    new Story { id = 43543241, title = "Show HN: Nue – Apps lighter than a React button" },
+                    new Story { id = 43511529, title = "The Guardian flourishes without a paywall" }
                 }
             };
 
-            _mockStoryServices.Setup(service => service.GetStories(page, pageSize)).ReturnsAsync(storiesResponse);
+            _mockStoryServices.Setup(service => service.GetStories(page, pageSize))
+                              .ReturnsAsync(stories);
 
             // Act
-            var result = await _controller.GetStories(page, pageSize);
+            var result = await _storyController.GetStories(page, pageSize);
 
             // Assert
             var okResult = Assert.IsType<OkObjectResult>(result);
             var returnValue = Assert.IsType<PageResponse>(okResult.Value);
-            Assert.Equal(2, returnValue.Stories.Count); // Verify the number of stories returned
-        }
-
-        [Fact]
-        public async Task GetStories_ReturnsNoContent_WhenNoStoriesFound()
-        {
-            // Arrange
-            var page = 1;
-            var pageSize = 10;
-            _mockStoryServices.Setup(service => service.GetStories(page, pageSize)).ReturnsAsync((PageResponse)null);
-
-            // Act
-            var result = await _controller.GetStories(page, pageSize);
-
-            // Assert
-            var noContentResult = Assert.IsType<ObjectResult>(result);
-            Assert.Equal(StatusCodes.Status204NoContent, noContentResult.StatusCode); // Verify 204 No Content
+            Assert.Equal(page, returnValue.Page);
+            Assert.Equal(pageSize, returnValue.PageSize);
+            Assert.Equal(2, returnValue.Stories.Count);
         }
 
         [Fact]
@@ -72,15 +56,16 @@ namespace xUnitTestProj
             // Arrange
             var page = 1;
             var pageSize = 10;
-            _mockStoryServices.Setup(service => service.GetStories(page, pageSize)).ThrowsAsync(new Exception("Some error"));
+            _mockStoryServices.Setup(service => service.GetStories(page, pageSize))
+                              .ThrowsAsync(new Exception("Internal server error"));
 
             // Act
-            var result = await _controller.GetStories(page, pageSize);
+            var result = await _storyController.GetStories(page, pageSize);
 
             // Assert
-            var errorResult = Assert.IsType<ObjectResult>(result);
-            Assert.Equal(StatusCodes.Status500InternalServerError, errorResult.StatusCode); // Verify 500 Internal Server Error
+            var objectResult = Assert.IsType<ObjectResult>(result);
+            Assert.Equal(500, objectResult.StatusCode);
+            Assert.Equal("Internal server error", objectResult.Value);
         }
     }
 }
-

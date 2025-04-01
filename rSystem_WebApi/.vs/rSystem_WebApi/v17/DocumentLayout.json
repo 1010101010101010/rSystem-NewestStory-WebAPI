@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{144ED2FF-8068-474E-9F28-8CEF68619BB0}|Test\\xUnitTestProj\\xUnitTestProj.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\test\\xunittestproj\\storycontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{144ED2FF-8068-474E-9F28-8CEF68619BB0}|Test\\xUnitTestProj\\xUnitTestProj.csproj|solutionrelative:test\\xunittestproj\\storycontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\application\\storyservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|solutionrelative:application\\storyservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54A6C529-E881-4EA6-B901-C8A7FE82055F}|Api\\Api.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\api\\controllers\\storycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54A6C529-E881-4EA6-B901-C8A7FE82055F}|Api\\Api.csproj|solutionrelative:api\\controllers\\storycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\application\\interfaces\\istoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|solutionrelative:application\\interfaces\\istoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\application\\model\\story.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|solutionrelative:application\\model\\story.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144ED2FF-8068-474E-9F28-8CEF68619BB0}|Test\\xUnitTestProj\\xUnitTestProj.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\test\\xunittestproj\\storycontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144ED2FF-8068-474E-9F28-8CEF68619BB0}|Test\\xUnitTestProj\\xUnitTestProj.csproj|solutionrelative:test\\xunittestproj\\storycontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144ED2FF-8068-474E-9F28-8CEF68619BB0}|Test\\xUnitTestProj\\xUnitTestProj.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\test\\xunittestproj\\storyservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144ED2FF-8068-474E-9F28-8CEF68619BB0}|Test\\xUnitTestProj\\xUnitTestProj.csproj|solutionrelative:test\\xunittestproj\\storyservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144ED2FF-8068-474E-9F28-8CEF68619BB0}|Test\\xUnitTestProj\\xUnitTestProj.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\test\\xunittestproj\\errorcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144ED2FF-8068-474E-9F28-8CEF68619BB0}|Test\\xUnitTestProj\\xUnitTestProj.csproj|solutionrelative:test\\xunittestproj\\errorcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54A6C529-E881-4EA6-B901-C8A7FE82055F}|Api\\Api.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54A6C529-E881-4EA6-B901-C8A7FE82055F}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54A6C529-E881-4EA6-B901-C8A7FE82055F}|Api\\Api.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\api\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54A6C529-E881-4EA6-B901-C8A7FE82055F}|Api\\Api.csproj|solutionrelative:api\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\application\\cachingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|solutionrelative:application\\cachingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\application\\interfaces\\icachingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|solutionrelative:application\\interfaces\\icachingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\application\\model\\pageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|solutionrelative:application\\model\\pageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|c:\\source_code\\rsystem\\newest_stories\\webapi\\rsystem-neweststory-webapi\\rsystem_webapi\\application\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F99D471-61FD-4843-BE43-BD2B52297948}|Application\\Services.csproj|solutionrelative:application\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +62,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Story.cs",
+              "DocumentMoniker": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Model\\Story.cs",
+              "RelativeDocumentMoniker": "Application\\Model\\Story.cs",
+              "ToolTip": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Model\\Story.cs",
+              "RelativeToolTip": "Application\\Model\\Story.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T13:50:36.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "StoryControllerTests.cs",
               "DocumentMoniker": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Test\\xUnitTestProj\\StoryControllerTests.cs",
               "RelativeDocumentMoniker": "Test\\xUnitTestProj\\StoryControllerTests.cs",
               "ToolTip": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Test\\xUnitTestProj\\StoryControllerTests.cs",
               "RelativeToolTip": "Test\\xUnitTestProj\\StoryControllerTests.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswBgAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T07:03:49.723Z",
+              "WhenOpened": "2025-04-01T11:51:56.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StoryServiceTests.cs",
+              "DocumentMoniker": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Test\\xUnitTestProj\\StoryServiceTests.cs",
+              "RelativeDocumentMoniker": "Test\\xUnitTestProj\\StoryServiceTests.cs",
+              "ToolTip": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Test\\xUnitTestProj\\StoryServiceTests.cs",
+              "RelativeToolTip": "Test\\xUnitTestProj\\StoryServiceTests.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:55:55.118Z",
               "EditorCaption": ""
             },
             {
@@ -45,22 +111,126 @@
               "RelativeDocumentMoniker": "Api\\Controllers\\StoryController.cs",
               "ToolTip": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Api\\Controllers\\StoryController.cs",
               "RelativeToolTip": "Api\\Controllers\\StoryController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T06:49:05.779Z",
+              "WhenOpened": "2025-04-01T10:53:58.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoryServices.cs",
+              "DocumentMoniker": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\StoryServices.cs",
+              "RelativeDocumentMoniker": "Application\\StoryServices.cs",
+              "ToolTip": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\StoryServices.cs",
+              "RelativeToolTip": "Application\\StoryServices.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwCcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:27:16.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IStoryServices.cs",
+              "DocumentMoniker": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Interfaces\\IStoryServices.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IStoryServices.cs",
+              "ToolTip": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Interfaces\\IStoryServices.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IStoryServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:38:53.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorControllerTests.cs",
+              "DocumentMoniker": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Test\\xUnitTestProj\\ErrorControllerTests.cs",
+              "RelativeDocumentMoniker": "Test\\xUnitTestProj\\ErrorControllerTests.cs",
+              "ToolTip": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Test\\xUnitTestProj\\ErrorControllerTests.cs",
+              "RelativeToolTip": "Test\\xUnitTestProj\\ErrorControllerTests.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T13:05:37.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Api\\Program.cs",
               "RelativeDocumentMoniker": "Api\\Program.cs",
               "ToolTip": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Api\\Program.cs",
               "RelativeToolTip": "Api\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:22:01.107Z",
+              "WhenOpened": "2025-04-01T10:37:52.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Api\\Controllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\ErrorController.cs",
+              "ToolTip": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Api\\Controllers\\ErrorController.cs",
+              "RelativeToolTip": "Api\\Controllers\\ErrorController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T13:04:42.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CachingService.cs",
+              "DocumentMoniker": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\CachingService.cs",
+              "RelativeDocumentMoniker": "Application\\CachingService.cs",
+              "ToolTip": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\CachingService.cs",
+              "RelativeToolTip": "Application\\CachingService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:39:15.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICachingService.cs",
+              "DocumentMoniker": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Interfaces\\ICachingService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\ICachingService.cs",
+              "ToolTip": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Interfaces\\ICachingService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\ICachingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:38:45.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PageResponse.cs",
+              "DocumentMoniker": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Model\\PageResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Model\\PageResponse.cs",
+              "ToolTip": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Model\\PageResponse.cs",
+              "RelativeToolTip": "Application\\Model\\PageResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T12:21:13.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Services",
+              "DocumentMoniker": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Services.csproj",
+              "RelativeDocumentMoniker": "Application\\Services.csproj",
+              "ToolTip": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Services.csproj",
+              "RelativeToolTip": "Application\\Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-01T10:38:16.399Z",
               "EditorCaption": ""
             }
           ]

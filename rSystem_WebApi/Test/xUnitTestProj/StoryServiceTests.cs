@@ -1,121 +1,59 @@
-﻿using Application.DTOs;
-using Application.Interfaces;
-using Application.Services;
-using Domain.Entities;
-using Domain.Interfaces;
-using Moq;
+﻿using Moq;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-
+using Services;
+using Services.Interfaces;
+using Services.Model;
+using Microsoft.Extensions.Configuration;
 
 namespace xUnitTestProj
 {
     public class StoryServicesTests
     {
         private readonly Mock<ICachingService> _mockCachingService;
-        private readonly Mock<IStoryRepository> _mockStoryRepository;
-        private readonly Mock<IBaseAdapater> _mockAdapter;
+        private readonly Mock<HttpClient> _mockHttpClient;
+        private readonly Mock<IConfiguration> _mockConfiguration;
         private readonly StoryServices _storyServices;
 
         public StoryServicesTests()
         {
             _mockCachingService = new Mock<ICachingService>();
-            _mockStoryRepository = new Mock<IStoryRepository>();
-            _mockAdapter = new Mock<IBaseAdapater>();
-            _storyServices = new StoryServices(_mockCachingService.Object, _mockStoryRepository.Object, _mockAdapter.Object);
+            _mockHttpClient = new Mock<HttpClient>();
+            _mockConfiguration = new Mock<IConfiguration>();
+
+            _storyServices = new StoryServices(_mockCachingService.Object, _mockHttpClient.Object, _mockConfiguration.Object);
         }
 
         [Fact]
-        public async Task GetStories_ShouldReturnCachedStories_WhenCacheIsAvailable()
+        public async Task GetStories_Returns_Valid_Stories()
         {
             // Arrange
-            IEnumerable<Story> cachedStories = new List<Story>
-            {
-                new Story { Title = "Story 1", StoryUrl = "http://story1.com" },
-                new Story { Title = "Story 2", StoryUrl = "http://story2.com" }
-            };
+            var page = 1;
+            var pageSize = 2;
+            var mockStoryIds = new List<int> { 43544979, 43543241, 43543235, 43504940, 43518462, 43511529, 43512470 };
+            var mockStoryData = new Story { id = 43544979, title = "Self-Hosting like it's 2025" };
 
-            _mockCachingService.Setup(service => service.GetCache<IEnumerable<Story>>("GetStories")).Returns(cachedStories);
+            // Mocking IConfiguration to return the base URL
+            _mockConfiguration.Setup(config => config["hacker-news-base-url"]).Returns("https://hacker-news.firebaseio.com/v0/");
+
+            // Mock GetTopStroies to return story IDs
+            _mockCachingService.Setup(service => service.GetCache<IEnumerable<int>>("topstories_CacheKey"))
+                               .Returns(mockStoryIds);
+
+            // Mock GetStoryById to return mock story data for the given ID
+            //_mockHttpClient.Setup(client => client.GetAsync(It.IsAny<string>()))
+            //               .ReturnsAsync(new HttpResponseMessage
+            //               {
+            //                   Content = new StringContent(JsonConvert.SerializeObject(mockStoryData))
+            //               });
 
             // Act
-            var result = await _storyServices.GetStories(1, 10);
+            var result = await _storyServices.GetStories(page, pageSize);
 
             // Assert
             Assert.NotNull(result);
-            Assert.Equal(2, result.Stories.Count);
-            Assert.Equal("Story 1", result.Stories[0].Title);
-            Assert.Equal("Story 2", result.Stories[1].Title);
-        }
-
-        [Fact]
-        public async Task GetStories_ShouldReturnStoriesFromRepository_WhenCacheIsEmpty()
-        {
-            // Arrange
-            _mockCachingService.Setup(service => service.GetCache<IEnumerable<Story>>("GetStories")).Returns(null as IEnumerable<Story>);
-
-            var storiesFromRepository = new List<Story>
-            {
-                new Story { Title = "Repo Story 1", StoryUrl = "http://repoStory1.com" },
-                new Story { Title = "Repo Story 2", StoryUrl = "http://repoStory2.com" }
-            };
-            _mockStoryRepository.Setup(repo => repo.GetStories()).ReturnsAsync(storiesFromRepository);
-
-            // Act
-            var result = await _storyServices.GetStories(1, 10);
-
-            // Assert
-            _mockCachingService.Verify(service => service.SetCache("GetStories", It.IsAny<IEnumerable<Story>>()), Times.Once);
-            Assert.NotNull(result);
-            Assert.Equal(2, result.Stories.Count);
-            Assert.Equal("Repo Story 1", result.Stories[0].Title);
-            Assert.Equal("Repo Story 2", result.Stories[1].Title);
-        }
-
-        [Fact]
-        public async Task GetStories_ShouldMergeExternalApiData_WhenExternalApiHasData()
-        {
-            // Arrange
-            var cachedStories = new List<Story>
-            {
-                new Story { Title = "Story 1", StoryUrl = "http://story1.com" }
-            };
-            _mockCachingService.Setup(service => service.GetCache<IEnumerable<Story>>("GetStories")).Returns(cachedStories);
-
-            var externalApiData = new List<StoryDto>
-            {
-                new StoryDto { Title = "External Story 1", Url = "http://external1.com" }
-            };
-            _mockAdapter.Setup(adapter => adapter.GetStories(1, 10)).ReturnsAsync(externalApiData);
-
-            // Act
-            var result = await _storyServices.GetStories(1, 10);
-
-            // Assert
-            Assert.NotNull(result);
-            Assert.Equal(2, result.Stories.Count); // One from cache, one from external API
-            Assert.Equal("Story 1", result.Stories[0].Title);
-            Assert.Equal("External Story 1", result.Stories[1].Title);
-        }
-
-        [Fact]
-        public async Task GetStories_ShouldReturnEmptyList_WhenNoStoriesFound()
-        {
-            // Arrange
-            _mockCachingService.Setup(service => service.GetCache<IEnumerable<Story>>("GetStories")).Returns(null as IEnumerable<Story>);
-            _mockStoryRepository.Setup(repo => repo.GetStories()).ReturnsAsync(new List<Story>());
-
-            // Act
-            var result = await _storyServices.GetStories(1, 10);
-
-            // Assert
-            Assert.NotNull(result);
-            Assert.Empty(result.Stories);
-        }
+            Assert.Equal(page, result.Page);
+            Assert.Equal(pageSize, result.PageSize);
+            Assert.Equal("Self-Hosting like it's 2025", result.Stories[0].title);
+        }        
     }
 }

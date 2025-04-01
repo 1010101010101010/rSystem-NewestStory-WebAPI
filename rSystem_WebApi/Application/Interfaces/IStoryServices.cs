@@ -1,15 +1,9 @@
-﻿using Application.DTOs;
-using Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Services.Model;
 
-namespace Application.Interfaces
+namespace Services.Interfaces
 {
     public interface IStoryServices
     {
-        Task<PageResponse> GetStories(int page,int pageSize);
+        Task<PageResponse> GetStories(int page, int pageSize, int searchTerm);
     }
 }

@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Application.csproj": {
-                "projectPath": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Application.csproj"
+              "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Services.csproj": {
+                "projectPath": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Services.csproj"
               }
             }
           }
@@ -86,108 +86,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Application.csproj": {
+    "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Application.csproj",
-        "projectName": "Application",
-        "projectPath": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\Services.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Domain\\Domain.csproj"
-              },
-              "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Infrastructure\\Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.Extensions.Configuration.Abstractions": {
-              "target": "Package",
-              "version": "[9.0.3, )"
-            },
-            "Microsoft.Extensions.DependencyInjection.Abstractions": {
-              "target": "Package",
-              "version": "[9.0.3, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "System.Net.Http": {
-              "target": "Package",
-              "version": "[4.3.4, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Domain\\Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -225,79 +135,26 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Infrastructure\\Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Infrastructure\\Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Infrastructure\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Source_Code\\rSystem\\Newest_Stories\\WebAPI\\rSystem-NewestStory-WebAPI\\rSystem_WebApi\\Domain\\Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.Extensions.Caching.Abstractions": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
             }
           },
           "imports": [
@@ -316,7 +173,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
